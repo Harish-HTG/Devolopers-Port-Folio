@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(1, 1, 40);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(2, 2, 94);
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a:hover {
+    color: yellowgreen;
+    transition: .5s;
+}
+
+.firstSection {
+    margin: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2rem;
+}
+
+#element {
+    color: yellowgreen;
+}
+
+.rightSection img {
+    width: 100%;
+}
+
+main hr {
+    margin: 30px 50px;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 400px;
+}
+
+.secondSection .box {
+    width: 80vw;
+    height: 2px;
+    background-color: white;
+    margin: 40px 0;
+    display: flex;
+}
+
+.box .vertical {
+    margin: 0 115px;
+    height: 100px;
+    width: 1px;
+    background-color: white;
+}
+
+.vertical img {
+    width: 20px;
+    position: relative;
+    top: -33px;
+    left: -9px;
+}
+
+.title {
+    width: 200px;
+    position: relative;
+    top: 80px;
+}
+
+.desc {
+    width: 190px;
+    font-size: 9px;
+    color: gray;
+    position: relative;
+    top: 82px;
+}
+
+.green {
+    color: greenyellow;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    padding: 10px 20px;
+    background-color: greenyellow;
+    justify-content: space-evenly;
+    color: blue;
+    align-items: center;
+}
+
+footer .top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.name {
+    font-size: larger;
+}
+
+.links ul li {
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: small;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+.links ul li a:hover {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    transition: all .5s, .5s;
+}
+
+.txt {
+    text-align: center;
+}
